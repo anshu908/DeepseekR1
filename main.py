@@ -35,7 +35,7 @@ def webhook():
 
 @app.route('/set_webhook', methods=['GET'])
 def set_webhook():
-    webhook_url = f"https://<your_server_url>/{TOKEN}"
+    webhook_url = f"fixed-rebekkah-pyare-a6dce348.koyeb.app//{TOKEN}"
     bot.set_webhook(url=webhook_url)
     return "Webhook is set!", 200
 
