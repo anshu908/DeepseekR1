@@ -39,7 +39,7 @@ def webhook():
 # Set up Flask to forward the webhook to Telegram
 @app.route(f"/setwebhook", methods=['GET', 'POST'])
 def set_webhook():
-    webhook_url = f"https://yourdomain.com/{TOKEN}"  # Replace with your domain
+    webhook_url = f"https://fixed-rebekkah-pyare-a6dce348.koyeb.app/{TOKEN}"  # Replace with your domain
     bot.set_webhook(url=webhook_url)
     return "Webhook set successfully!", 200
 
