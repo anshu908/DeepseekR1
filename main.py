@@ -8,7 +8,7 @@ TOKEN = "7981716643:AAEVGVTrp0OYcpq2itXA5xitnmzQoCkJkFg"
 bot = telebot.TeleBot(TOKEN)
 
 # DeepSeek API URL
-API_URL = "https://deepseek.privates-bots.workers.dev/?question="
+API_URL = "https://deepseek.ytansh038.workers.dev/?question="
 
 # Flask app
 app = Flask(__name__)
